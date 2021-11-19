@@ -1,8 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,7 +27,7 @@ namespace Windows11Bypass
                 BypassCPUCheckandTPMCheckINMoSetup.SetValue("AllowUpgradesWithUnsupportedTPMOrCPU", "1", RegistryValueKind.DWord);
                 MessageBox.Show("Done.");
             }
-            Application.Exit();
+            Environment.Exit(0);
         }
     }
 }
