@@ -6,3 +6,7 @@ Enjoy!
 
 
 [Donation](https://ko-fi.com/glebyoutuber)
+
+
+## Number of Downloads
+![GitHub all releases](https://img.shields.io/github/downloads/GlebYoutuber/Windows11Bypass/total?style=social)
